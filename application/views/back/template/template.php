@@ -1,51 +1,11 @@
-<body background="coleiro.jpg">
-
-
-
-
-	<!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark success-color">
-
-    <!-- Navbar brand -->
-    <a class="navbar-brand" href="#">Buriti</a>
-
-    <!-- Collapse button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="basicExampleNav">
-
-        <!-- Links -->
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Inicio
-                    <span class="sr-only">(current)</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="cadastrar.html">Cadastro</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#"></a>
-            </li>
-
-
-        </ul>
-
-
-
-    </div>
-    <!-- Collapsible content -->
+psible content -->
 
 </nav>
 <!--/.Navbar-->
 
 <br>
 
-<center> <p class="font-weight-light"><h1 class="text-light">Encomende seu Filhote</p></h1></center>
+<center> <p class="font-weight-light  "><h1 class="text-light-primary">Area administrativa</p></h1></center>
 
 
 	<!-- Card -->
@@ -80,12 +40,12 @@
             </div>
 
 						<div class="text-center mt-4">
-						<button class="btn btn-success" type="submit">logar</button><br><br>
+						<button class="btn btn-primary" type="submit">logar</button><br><br>
 						</div>
 
 						<div class="modal-footer">
 	                        <div class="options font-weight-light">
-	                            <p>Não é um membro? <a href="Cadastrar.html">Cadastrar</a></p>
+	                            <p></p>
 
 	                        </div>
 	                    </div>

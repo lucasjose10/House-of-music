@@ -37,8 +37,8 @@
     <!-- Footer Elements -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:
-      <a href="https://mdbootstrap.com/bootstrap-tutorial/"> criadouroburiti.com</a>
+    <div class="footer-copyright text-center py-3">© 2018 Casa dos musicos:
+      <a href="https://mdbootstrap.com/bootstrap-tutorial/"> casadosmusicos.com.br</a>
     </div>
     <!-- Copyright -->
 

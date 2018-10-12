@@ -93,8 +93,8 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masthead.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))),url(https://scontent.fcfb2-1.fna.fbcdn.net/v/t31.0-8/28700743_398343790638160_8663175783799890664_o.jpg?_nc_cat=102&oh=6b467592fede2924b0d1f6175034f6d8&oe=5C58E9D7);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(https://scontent.fcfb2-1.fna.fbcdn.net/v/t31.0-8/28700743_398343790638160_8663175783799890664_o.jpg?_nc_cat=102&oh=6b467592fede2924b0d1f6175034f6d8&oe=5C58E9D7);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
