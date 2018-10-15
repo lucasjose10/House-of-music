@@ -97,22 +97,22 @@
         <a class="portfolio-item" href="#">
           <span class="caption">
             <span class="caption-content">
-              <h2>Stationary</h2>
-              <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+              <h2>Gravação</h2>
+              <p class="mb-0">Equipamentos para gravação e ajustes!</p>
             </span>
           </span>
-          <img class="img-fluid" src="assets/front/img/portfolio-1.jpg" alt="">
+          <img class="img-fluid" src="assets/front/img/2.jpg" alt="">
         </a>
       </div>
       <div class="col-lg-6">
         <a class="portfolio-item" href="#">
           <span class="caption">
             <span class="caption-content">
-              <h2>Ice Cream</h2>
+              <h2>Teclado</h2>
               <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
             </span>
           </span>
-          <img class="img-fluid" src="assets/front/img/portfolio-2.jpg" alt="">
+          <img class="img-fluid" src="assets/front/img/4.jpg" alt="">
         </a>
       </div>
       <div class="col-lg-6">
