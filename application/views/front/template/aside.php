@@ -4,8 +4,8 @@
 
   <div class="container text-center my-auto">
 
-    <h1 class="mb-1">Casa Dos Musicos</h1>
-    <h3 class="mb-5">
+    <h1 class="text-white">Casa Dos Musicos</h1>
+    <h3 class="text-white">
       <em>Escola de Musica e Produtora Musical</em>
     </h3>
     <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Sobre</a>
