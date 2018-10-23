@@ -19,12 +19,7 @@
     <div class="container">
 
       <!-- Social buttons -->
-      <ul class="list-unstyled list-inline text-center">
-        <li class="list-inline-item">
-          <a class="btn-floating btn-fb mx-1">
-            <i class="fa fa-facebook"> </i>
-          </a>
-        </li>
+    
 
 
 
@@ -36,10 +31,7 @@
     </div>
     <!-- Footer Elements -->
 
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 Casa dos musicos:
-      <a href="https://mdbootstrap.com/bootstrap-tutorial/"> casadosmusicos.com.br</a>
-    </div>
+
     <!-- Copyright -->
 
   </footer>

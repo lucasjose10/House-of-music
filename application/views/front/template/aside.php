@@ -18,9 +18,8 @@
   <div class="container text-center">
     <div class="row">
       <div class="col-lg-10 mx-auto">
-        <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-        <p class="lead mb-5">This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
-          <a href="https://unsplash.com/">Unsplash</a>!</p>
+        <h2>Somos uma Escola de música e um Estudio músical</h2>
+        <p class="lead mb-5">Nos preucupamos em entregar </p>
         <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a>
       </div>
     </div>
@@ -140,7 +139,6 @@
     </div>
   </div>
 </section>
-
 <!-- Call to Action -->
 <section class="content-section bg-primary text-white">
   <div class="container text-center">
@@ -152,9 +150,9 @@
 
 <!-- Map -->
 <section id="contact" class="map">
-  <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+  <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.617066700841!2d-42.63116368557749!3d-22.705294885114654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99d9f5539ec5c1%3A0x8f3a2cbfc52b4477!2sCasa+Dos+Musicos!5e0!3m2!1spt-BR!2sbr!4v1540338362936"></iframe>
   <br/>
   <small>
-    <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+    <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.617066700841!2d-42.63116368557749!3d-22.705294885114654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99d9f5539ec5c1%3A0x8f3a2cbfc52b4477!2sCasa+Dos+Musicos!5e0!3m2!1spt-BR!2sbr!4v1540338362936"></a>
   </small>
 </section>

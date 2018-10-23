@@ -3,28 +3,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Cadastro extends CI_Controller {
 
-	public function __construct(){
+	function __construct(){
 		parent::__construct();
 
-    $this->load->model('adm_model','modeladm');
-    $this->info=$this->modeladm->listar();
+    $this->load->model('adm_model');
+		$this->load->model('cadastro_model');
 	}
 
 	public function index()
 	{
-
-
-
-
-		$dados['info']=$this->info;
-
-
 		$this->load->view('back/template/html-headerlog');
-
     $this->load->view('back/template/cadastro');
-		$this->load->view('back/template/html-footer');
-
-
 	}
 
 
@@ -33,14 +22,29 @@ class Cadastro extends CI_Controller {
 		$this->form_validation->set_rules('nome','nome do aluno','required|is_unique[alunos.nome]');
 		if($this->form_validation->run()== FALSE){
 			$this->index();
-		}
-		else{
-			
+	}}
 
+ public function cadastra_aluno()
+{
+$data = array(
+'nome'=>$this->input->post('nome'),
+'curso'=>$this->input->post('curso'),
+'dataN'=>$this->input->post('datan'),
+'vencimento'=>$this->input->post('vencimento'),
+'mae'=>$this->input->post('mae'),
+'pai'=>$this->input->post('pai'),
+'endereco'=>$this->input->post('endereço'),
+'bairro'=>$this->input->post('bairro'),
+'cidade'=>$this->input->post('cidade'),
+'professor'=>$this->input->post('professor'),
+'dia'=>$this->input->post('dia'),
+'hora'=>$this->input->post('hora'),
+'telefone'=>$this->input->post('telefone'),
+);
 
+print_r($data);
 
-		}
-	}
-
+$this->cadastro_model->cadastra_aluno($data);
 
 }
+	}
