@@ -16,7 +16,7 @@ psible content -->
 			echo validation_errors();
 			echo form_open('cadastro/cadastra_aluno');
 			?>
-			<div class="row">
+			<div class="row mx-5">
 			    <div class="col-lg-12">
 			        <div class="row">
 			          <div class="col-md-6">

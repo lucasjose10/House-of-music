@@ -4,9 +4,9 @@
 
   <div class="container text-center my-auto">
 
-    <h1 class="text-white">Casa Dos Musicos</h1>
+    <h1 class="text-white">Casa Dos Músicos</h1>
     <h3 class="text-white">
-      <em>Escola de Musica e Produtora Musical</em>
+      <em>Escola de Música e Produtora Musical</em>
     </h3>
     <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Sobre</a>
   </div>
@@ -20,7 +20,7 @@
       <div class="col-lg-10 mx-auto">
         <h2>Somos uma Escola de música e um Estudio músical</h2>
         <p class="lead mb-5">Nos preucupamos em entregar um serviço de excelência e altíssima qualidade</p>
-        <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a>
+        <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">Nossos Serviços</a>
       </div>
     </div>
   </div>
@@ -36,7 +36,7 @@
     <div class="row">
       <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
         <span class="service-icon rounded-circle mx-auto mb-3">
-          <i class="icon-screen-smartphone"></i>
+          <i class="icon-disc"></i>
         </span>
         <h4>
           <strong>Gravação</strong>
@@ -45,16 +45,16 @@
       </div>
       <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
         <span class="service-icon rounded-circle mx-auto mb-3">
-          <i class="icon-pencil"></i>
+          <i class="icon-volume-2"></i>
         </span>
         <h4>
           <strong>Ensaios</strong>
         </h4>
-        <p class="text-faded mb-0">Estudio completo para seus ensaios!</p>
+        <p class="text-faded mb-0">Estúdio completo para seus ensaios!</p>
       </div>
       <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
         <span class="service-icon rounded-circle mx-auto mb-3">
-          <i class="icon-like"></i>
+          <i class="icon-pencil"></i>
         </span>
         <h4>
           <strong>Aulas</strong>
@@ -63,7 +63,7 @@
       </div>
       <div class="col-lg-3 col-md-6">
         <span class="service-icon rounded-circle mx-auto mb-3">
-          <i class="icon-mustache"></i>
+          <i class="icon-equalizer"></i>
         </span>
         <h4>
           <strong>Produção</strong>
@@ -81,12 +81,12 @@
 <section class="content-section" id="portfolio">
   <div class="container">
     <div class="content-section-heading text-center">
-      <h2 class="text-secondary mb-0">Nossos Equipamentos</h2>
+      <h2 class="text-primary mb-0">Nossos Equipamentos</h2>
       <h3 class="mb-5"></h3>
     </div>
     <div class="row no-gutters">
       <div class="col-lg-6">
-        <a class="portfolio-item" href="#">
+        <a class="portfolio-item">
           <span class="caption">
             <span class="caption-content">
               <h2>Gravação</h2>
@@ -97,7 +97,7 @@
         </a>
       </div>
       <div class="col-lg-6">
-        <a class="portfolio-item" href="#">
+        <a class="portfolio-item">
           <span class="caption">
             <span class="caption-content">
               <h2>Teclado</h2>
@@ -108,7 +108,7 @@
         </a>
       </div>
       <div class="col-lg-6">
-        <a class="portfolio-item" href="#">
+        <a class="portfolio-item">
           <span class="caption">
             <span class="caption-content">
               <h2>Strawberries</h2>
@@ -119,7 +119,7 @@
         </a>
       </div>
       <div class="col-lg-6">
-        <a class="portfolio-item" href="#">
+        <a class="portfolio-item">
           <span class="caption">
             <span class="caption-content">
               <h2>Workspace</h2>

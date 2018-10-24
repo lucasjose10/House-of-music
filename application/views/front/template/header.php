@@ -21,7 +21,7 @@
         <a class="js-scroll-trigger" href="#portfolio">Equipamentos</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#contact">Fale Conosco</a>
+        <a class="js-scroll-trigger" href="#contact">Localização</a>
       </li>
     </ul>
   </nav>
