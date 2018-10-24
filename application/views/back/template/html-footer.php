@@ -19,11 +19,6 @@
     <div class="container">
 
       <!-- Social buttons -->
-    
-
-
-
-
 
       </ul>
       <!-- Social buttons -->

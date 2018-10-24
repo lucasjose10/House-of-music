@@ -40,9 +40,8 @@ $data = array(
 'dia'=>$this->input->post('dia'),
 'hora'=>$this->input->post('hora'),
 'telefone'=>$this->input->post('telefone'),
+'valor'=>$this->input->post('valor'),
 );
-
-print_r($data);
 
 $this->cadastro_model->cadastra_aluno($data);
 

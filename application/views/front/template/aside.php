@@ -19,7 +19,7 @@
     <div class="row">
       <div class="col-lg-10 mx-auto">
         <h2>Somos uma Escola de música e um Estudio músical</h2>
-        <p class="lead mb-5">Nos preucupamos em entregar </p>
+        <p class="lead mb-5">Nos preucupamos em entregar um serviço de excelência e altíssima qualidade</p>
         <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a>
       </div>
     </div>
@@ -75,14 +75,7 @@
 </section>
 
 <!-- Callout -->
-<section class="callout">
-  <div class="container text-center">
-    <h2 class="mx-auto mb-5">Welcome to
-      <em>your</em>
-      next website!</h2>
-    <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
-  </div>
-</section>
+
 
 <!-- Portfolio -->
 <section class="content-section" id="portfolio">
@@ -139,15 +132,6 @@
     </div>
   </div>
 </section>
-<!-- Call to Action -->
-<section class="content-section bg-primary text-white">
-  <div class="container text-center">
-    <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-    <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
-    <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
-  </div>
-</section>
-
 <!-- Map -->
 <section id="contact" class="map">
   <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.617066700841!2d-42.63116368557749!3d-22.705294885114654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99d9f5539ec5c1%3A0x8f3a2cbfc52b4477!2sCasa+Dos+Musicos!5e0!3m2!1spt-BR!2sbr!4v1540338362936"></iframe>

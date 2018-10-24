@@ -9,107 +9,85 @@ psible content -->
 
 	<!-- Card -->
 
-	<div class="container  h-100" id="card">
 
-<div class="row h-200 justify-content-center -items-center">
-
-<div class="card my-0 animated zoomIn"  style="width: 30rem;" >
-
-    <!-- Card body -->
-    <div class="card-body">
 
 
 			<?php
 			echo validation_errors();
 			echo form_open('cadastro/cadastra_aluno');
 			?>
+			<div class="row">
+			    <div class="col-lg-12">
+			        <div class="row">
+			          <div class="col-md-6">
+			            <div class="form-group">
+			              <p align="left">Nome
+			              <input class="form-control" name="nome" type="text" placeholder="Digite aqui o seu nome" pattern=".{3,100}" required>
+			              </p>
+			            </div>
+			            <div class="form-group">
+			            <p align="left">Data de Nascimento
+			              <input class="form-control" name="datan" type="date" placeholder="00/00/0000" pattern=".{10,100}" required>
+			              </p>
+			            </div>
+			            <div class="form-group">
+			            <p align="left">Nome Pai
+			              <input class="form-control" name="pai" type="text" placeholder="Ex:João silva" pattern=".{10,11}" required>
+			              </p>
+			            </div>
+			            <div class="form-group">
+			            <p align="left">Nome da Mãe<a width=15></a>
+			                <input type="text" placeholder="Ex:Maria silva" class="form-control" name="mae" id="mae" required>
+
+			              </p>
+
+			              <p align="left">Logradouro
+			                <input type="text" placeholder="Ex:Travessa jose silva" class="form-control" name="endereço" id="endereço" required>
+			                </p>
+			                <p align="left">Bairro
+			                <input type="text" placeholder="Informe o Bairro" class="form-control" name="bairro">
+			                </p>
+											<p align="left">Cidade
+			                <input type="text" placeholder="Informe a Cidade" class="form-control" name="cidade">
+			                </p>
+			            </div>
+			          </div>
+			          <div class="col-md-6">
+			            <div class="form-group">
+			            <p align="left">Curso
+			                <input type="text" placeholder="Ex:.Violão" class="form-control" name="curso">
+			                </p>
+			                <p align="left">Professor
+			                <input type="text" placeholder="Informe o nome do Professor" class="form-control" name="professor" id="professor"required>
+			                </p>
+											<p align="left">Dia da Aula
+										 <input type="text" placeholder="Ex:.Quarta feira" class="form-control" name="dia" id="dia"required>
+										 </p>
+										 <p align="left">Hora da aula
+										 <input type="number" placeholder="Ex:.13" class="form-control" name="hora" id="hora" required>
+										 </p>
+										 <p align="left">Telefone
+										 <input type="number" placeholder="Ex:. (DDD)+99999-9999" class="form-control" name="telefone" id="telefone"required>
+										 <p align="left">Valor da Mensalidade
+										 <input type="number" placeholder="Ex:.200" class="form-control" name="valor" id="valor"required>
+										 </p>
+										 <p align="left">Data de Vencimento
+										 <input type="Date" placeholder="" class="form-control" name="vencimento" id="vencimento"required>
+										 </p>
+										 </p>
+			            </div>
+			          </div>
+			          <div class="col-lg-12 text-center">
+			            <input type="submit" value="Enviar" class="btn btn-primary btn-xl mt-0"  />
+			            </form>    </div>
+			  </div>
 
 
-					<p class="h4 text-center py-4">Cadastrar Aluno</p>
 
-
-					<!-- Material input email -->
-					<div class="md-form my-0">
-							<i class="fa fa-envelope prefix grey-text"></i>
-							<input type="text" id="nome" name="nome" class="form-control">
-							<label for="nome" class="font-weight-light">Nome:</label>
-					</div>
-
-
-					<!-- Material input password -->
-					<div class="md-form my-0">
-							<i class="fa fa-lock prefix grey-text"></i>
-							<input type="text" id="curso" name="curso" class="form-control">
-							<label for="curso" class="font-weight-light">Curso</label>
-					</div>
-					<div class="md-form my-0">
-							<i class="fa fa-lock prefix grey-text"></i>
-							<input type="text" id="datan" name="datan" class="form-control">
-							<label for="datan" class="font-weight-light">Data de Nascimento</label>
-					</div>
-					<div class="md-form my-0">
-							<i class="fa fa-lock prefix grey-text"></i>
-							<input type="text" id="vencimento" name="vencimento" class="form-control">
-							<label for="vencimento" class="font-weight-light">Vencimento</label>
-					</div>
-					<div class="md-form my-0">
-							<i class="fa fa-lock prefix grey-text"></i>
-							<input type="text" id="mae" name="mae" class="form-control">
-							<label for="mae" class="font-weight-light">Mãe</label>
-					</div>
-					<div class="md-form my-0">
-							<i class="fa fa-lock prefix grey-text"></i>
-							<input type="text" id="pai" name="pai" class="form-control">
-							<label for="pai" class="font-weight-light">Pai</label>
-					</div>
-					<div class="md-form my-0">
-							<i class="fa fa-lock prefix grey-text"></i>
-							<input type="text" id="endereço" name="endereço" class="form-control">
-							<label for="endereço" class="font-weight-light">endereço</label>
-					</div>
-					<div class="md-form my-0">
-							<i class="fa fa-lock prefix grey-text"></i>
-							<input type="number" id="valor" name="valor" class="form-control">
-							<label for="valor" class="font-weight-light">valor</label>
-					</div>
-					<div class="md-form my-0">
-							<i class="fa fa-lock prefix grey-text"></i>
-							<input type="text" id="bairro" name="bairro" class="form-control">
-							<label for="bairro" class="font-weight-light">Bairro</label>
-					</div>
-					<div class="md-form my-0">
-							<i class="fa fa-lock prefix grey-text"></i>
-							<input type="text" id="cidade" name="cidade" class="form-control">
-							<label for="cidade" class="font-weight-light">Cidade</label>
-					</div>
-					<div class="md-form my-0">
-							<i class="fa fa-lock prefix grey-text"></i>
-							<input type="text" id="professor" name="professor" class="form-control">
-							<label for="professor" class="font-weight-light">Professor</label>
-					</div>
-					<div class="md-form my-0">
-							<i class="fa fa-lock prefix grey-text"></i>
-							<input type="text" id="dia" name="dia" class="form-control">
-							<label for="dia" class="font-weight-light">Dia</label>
-					</div>
-					<div class="md-form my-0">
-							<i class="fa fa-lock prefix grey-text"></i>
-							<input type="number" id="hora" name="hora" class="form-control">
-							<label for="hora" class="font-weight-light">Hora</label>
-					</div>
-					<div class="md-form my-0">
-							<i class="fa fa-lock prefix grey-text"></i>
-							<input type="number" id="telefone" name="telefone" class="form-control">
-							<label for="telefone" class="font-weight-light">Telefone</label>
-					</div>
-
-					<div class="text-center mt-4">
-					<button class="btn btn-primary" type="submit">cadastrar</button><br><br>
-					</div>
 
 					<div class="modal-footer">
 												<div class="options font-weight-light">
-														<p></p>
+
 
 												</div>
 										</div>
