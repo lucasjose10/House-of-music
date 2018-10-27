@@ -44,6 +44,8 @@ $data = array(
 );
 
 $this->cadastro_model->cadastra_aluno($data);
+$this->session->set_flashdata('sucesso','<h2>Cadastro efetuado com sucesso!</h2>');
+redirect(base_url('Cadastro'));
 
 }
 	}

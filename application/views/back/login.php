@@ -1,4 +1,3 @@
-psible content -->
 
 </nav>
 <!--/.Navbar-->
@@ -18,30 +17,33 @@ psible content -->
 
     <!-- Card body -->
     <div class="card-body">
-
-        <!-- Material form register -->
-        <form>
+			<?php
+				echo validation_errors('<div class="alert alert-danger">','</div>');
+				echo form_open('admin/usuarios/login');
+			?>
+    				<form>
             <p class="h4 text-center py-4">Login</p>
 
 
             <!-- Material input email -->
             <div class="md-form">
                 <i class="fa fa-envelope prefix grey-text"></i>
-                <input type="email" id="materialFormCardEmailEx" class="form-control">
-                <label for="materialFormCardEmailEx" class="font-weight-light">E-mail:</label>
+                <input type="text" id="usuario" name="txt-user" class="form-control">
+                <label for="materialFormCardEmailEx" class="font-weight-light">Usuário:</label>
             </div>
 
 
             <!-- Material input password -->
             <div class="md-form">
                 <i class="fa fa-lock prefix grey-text"></i>
-                <input type="password" id="materialFormCardPasswordEx" class="form-control">
+                <input type="password" id="materialFormCardPasswordEx" name="txt-senha" class="form-control">
                 <label for="materialFormCardPasswordEx" class="font-weight-light">Senha</label>
             </div>
 
 						<div class="text-center mt-4">
 						<button class="btn btn-primary" type="submit">logar</button><br><br>
 						</div>
+
 
 						<div class="modal-footer">
 	                        <div class="options font-weight-light">
@@ -54,7 +56,10 @@ psible content -->
 
         </form>
         <!-- Material form register -->
+				<?php
+				echo form_close();
 
+				 ?>
     </div>
     <!-- Card body -->
 

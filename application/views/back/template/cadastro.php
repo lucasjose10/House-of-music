@@ -1,4 +1,4 @@
-psible content -->
+
 
 </nav>
 <!--/.Navbar-->
@@ -13,6 +13,8 @@ psible content -->
 
 
 			<?php
+			echo $this->session->flashdata('sucesso');
+			echo $this->session->flashdata('erro');
 			echo validation_errors();
 			echo form_open('cadastro/cadastra_aluno');
 			?>

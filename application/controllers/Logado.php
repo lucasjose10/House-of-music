@@ -12,19 +12,21 @@ class Logado extends CI_Controller {
 
 	public function index()
 	{
-
-
-    //$dados['info']=$this->info;
-
-
-
-
-		$this->load->view('back/template/html-headerlog');
-    $this->load->view('back/template/logado');
-		$this->load->view('back/template/html-footer');
-
+		if ($this->session->userdata['logado'])
+		{
+			$this->load->view('back/template/html-headerlog');
+	    $this->load->view('back/template/logado');
+			$this->load->view('back/template/html-footer');
+		}
+		else {
+			redirect(base_url());
+		}
 
 	}
-
+	public function deslogar()
+	{
+		$this->session->sess_destroy();
+		redirect(base_url());
+	}
 
 }

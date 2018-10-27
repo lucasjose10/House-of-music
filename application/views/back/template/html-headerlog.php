@@ -26,7 +26,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark primary-color">
 
     <!-- Navbar brand -->
-    <a class="navbar-brand" href="#">Casa dos musicos</a>
+    <a class="navbar-brand" href="#">Casa dos Músicos</a>
 
 
     <!-- Collapse button -->
@@ -50,6 +50,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('mostrar') ?>">Buscar aluno</a>
             </li>
+						<li class="nav-item">
+								<a class="nav-link" href="<?php echo base_url('Logado/deslogar') ?>">Sair</a>
+						</li>
 
 
 

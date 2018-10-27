@@ -14,7 +14,7 @@
       </li>
       </li>
       <li class="list-inline-item">
-        <a class="social-link rounded-circle text-white mr-3" href="https://api.whatsapp.com/send?phone=5521965761663&text=sua%20mensagem">
+        <a class="social-link rounded-circle text-white mr-3" href="https://api.whatsapp.com/send?phone=5521965761663&text=sua%20mensagem"target="_blanck">
           <i class="icon-phone"></i>
         </a>
       </li>
