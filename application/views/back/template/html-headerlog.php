@@ -45,14 +45,24 @@
 					</li>
 
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('cadastro')?>">Cadastrar</a>
+                <a class="nav-link" href="<?php echo base_url('cadastro')?>">Cadastrar Aluno</a>
             </li>
+						<li class="nav-item">
+								<a class="nav-link" href="<?php echo base_url('cadastropro')?>">Cadastrar Professor</a>
+						</li>
+						<li class="nav-item">
+								<a class="nav-link" href="<?php echo base_url('cadastrocurso')?>">Cadastrar Curso</a>
+						</li>
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('mostrar') ?>">Buscar aluno</a>
             </li>
+					</ul>
+
+						<ul class="nav justify-content-end">
 						<li class="nav-item">
-								<a class="nav-link" href="<?php echo base_url('Logado/deslogar') ?>">Sair</a>
+								<a class="nav-links"  href="<?php echo base_url('Logado/deslogar') ?>"><div class="text-white">Sair</div></a>
 						</li>
+
 
 
 
