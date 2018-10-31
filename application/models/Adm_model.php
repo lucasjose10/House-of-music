@@ -10,12 +10,6 @@ class Adm_model extends CI_Model {
 
 
 
-  public function listar(){
-
-
-    return $this->db->get('alunos')->result();
-
-  }
 
 
 }

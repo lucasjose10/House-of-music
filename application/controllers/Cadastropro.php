@@ -29,6 +29,7 @@ class Cadastropro extends CI_Controller {
 $data = array(
 'nome'=>$this->input->post('nome'),
 'curso'=>$this->input->post('curso'),
+'salario'=>$this->input->post('salario'),
 );
 
 $this->cadastropro_model->cadastra_professor($data);

@@ -5,27 +5,26 @@ class Mostrar extends CI_Controller {
 
 	public function __construct(){
 		parent::__construct();
+		$this->load->model('Adm_model');
+		$this->load->model('Mostrar_model');
 
-    $this->load->model('adm_model','modeladm');
-    $this->info=$this->modeladm->listar();
 	}
 
 	public function index()
 	{
 
-
-
-
-		$dados['info']=$this->info;
-
-
 		$this->load->view('back/template/html-headerlog');
-
-    $this->load->view('back/template/mostrar',$dados);
+    $this->load->view('back/template/mostrar');
 		$this->load->view('back/template/html-footer');
 
 
 	}
+
+public function buscar_aluno()
+{
+	$busca=$this->input->post('nome');
+	$data['busca']=$this->Mostrar_model->buscar_aluno($busca);
+}
 
 
 }

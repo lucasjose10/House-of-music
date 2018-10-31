@@ -8,43 +8,33 @@
 
 	<!-- Card -->
 
-	<div class="container  h-100" id="card">
+	<div class="container  h-104" id="card">
 
 <div class="row h-100 justify-content-center align-items-center">
 
-<div class="card my-5 animated zoomIn"  style="width: 30rem;" >
+<div class="card my-5 animated zoomIn"  style="width: 40rem;" >
 
 		<!-- Card body -->
 		<div class="card-body">
+			<?php
+				echo form_open('mostrar/buscar_aluno');
+				?>
 
 				<!-- Material form register -->
 				<form>
-						<p class="h4 text-center py-4">Alunos</p>
+						<p class="h4 text-center py-4">Buscar Alunos</p>
 
-
-						<!-- Material input email -->
-
-								<?php
-								foreach ($info as $infos) {
-								?>
-							 <center><li>NOME:  <?php echo $infos->nome ?></li></center>
-								<center><li>CURSO:  <?php echo $infos->curso ?></li></center>
-								<center><li>Data Nas:  <?php echo $infos->dataN ?></li></center>
-								<center><li>vencimento:  <?php echo $infos->Vencimento ?></li></center>
-								<center><li>NOME da mae:  <?php echo $infos->mae ?></li></center>
-								<center><li>NOME do pai:  <?php echo $infos->pai ?></li></center>
-
-								<?php
-								}
-								?>
-
-
-
-
-
+						<div class="row mx-5">
+								<div class="col-lg-12">
+										<div class="row">
+											<div class="col-md-6">
+												<div class="form-group">
+													<p align="left">Nome
+													<input class="form-control" name="nome" type="text" placeholder="Digite o nome do Aluno:" pattern=".{3,100}" required>
+													<br>
+													 <input type="submit" value="Buscar" class="btn btn-primary btn-xl mt-0"  />
+													</p>
 						</div>
-
-
 
 
 
@@ -57,3 +47,6 @@
 </div>
 </div>
 </div>
+<?php
+echo form_close();
+?>

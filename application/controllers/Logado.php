@@ -7,7 +7,7 @@ class Logado extends CI_Controller {
 		parent::__construct();
 
     $this->load->model('adm_model','modeladm');
-    $this->info=$this->modeladm->listar();
+    
 	}
 
 	public function index()

@@ -74,7 +74,7 @@
 										 <input type="number" placeholder="Ex:.200" class="form-control" name="valor" id="valor"required>
 										 </p>
 										 <p align="left">Data de Vencimento
-										 <input type="Date" placeholder="" class="form-control" name="vencimento" id="vencimento"required>
+										 <input type="number" placeholder="Insira o dia Ex:.10" class="form-control" name="vencimento" id="vencimento"required>
 										 </p>
 										 </p>
 			            </div>

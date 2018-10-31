@@ -26,14 +26,19 @@
 			          <div class="col-md-6">
 			            <div class="form-group">
 			              <p align="left">Nome
-			              <input class="form-control" name="nome" type="text" placeholder="Digite aqui o seu nome" pattern=".{3,100}" required>
+			              <input class="form-control" name="nome" type="text" placeholder="Digite aqui o nome do Professor:" pattern=".{3,100}" required>
 			              </p>
 			            </div>
 			            <div class="form-group">
 			            <p align="left">curso
-			              <input class="form-control" name="curso" type="text" placeholder="disciplia que o professor da">
-			              </p>
+			              <input class="form-control" name="curso" type="text" placeholder="Disciplina dada pelo Professor:">
+									</p>
 			            </div>
+									<div class="form-group">
+									<p align="left">Salário
+										<input class="form-control" name="salario" type="text" placeholder="Entre com o Salário do Professor:">
+									</p>
+									</div>
 
 										 </p>
 			            </div>
