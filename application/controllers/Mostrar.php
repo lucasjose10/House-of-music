@@ -24,6 +24,10 @@ public function buscar_aluno()
 {
 	$busca=$this->input->post('nome');
 	$data['busca']=$this->Mostrar_model->buscar_aluno($busca);
+	$this->load->view('back/template/html-headerlog');
+	$this->load->view('back/template/mostrar2',$data);
+	$this->load->view('back/template/html-footer');
+
 }
 
 

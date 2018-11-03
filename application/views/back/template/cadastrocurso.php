@@ -19,10 +19,10 @@
 			echo form_open('Cadastrocurso/cadastra_curso');
 			?>
 
-			<center><p> Cadastro curso </p></center>
+			<center><h1> Cadastro curso </h1></center>
 			<div class="row mx-2">
 			    <div class="col-lg-12">
-			        <div class="row">
+			        <div class="row h-100 justify-content-center align-items-center">
 			          <div class="col-md-6">
 			            <div class="form-group">
 			              <p align="left">Nome

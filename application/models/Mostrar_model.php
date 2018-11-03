@@ -13,7 +13,11 @@ public function buscar_aluno($busca)
 	return $query->result();
 }
 
-
+public function buscar_aluno2()
+{
+	$query = $this->db->query("SELECT * FROM alunos");
+	return $query->result();
+}
 
 
 
